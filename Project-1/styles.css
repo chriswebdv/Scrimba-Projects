@@ -1,4 +1,16 @@
 .container {
   display: flex;
   justify-content: space-around;
+  background-color: #005778;
+  border-radius: 4px;
+}
+
+.score {
+  background-color: #fc4c02;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+h3 {
+  background-color: #008e97;
 }
