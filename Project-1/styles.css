@@ -3,14 +3,34 @@
   justify-content: space-around;
   background-color: #005778;
   border-radius: 4px;
+  padding-bottom: 15px;
 }
 
 .score {
   background-color: #fc4c02;
   font-weight: bold;
   border-radius: 4px;
+  text-align: center;
 }
 
 h3 {
   background-color: #008e97;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  height: 30px;
+  width: 30px;
+  color: antiquewhite;
+  font-weight: bold;
+  background-color: black;
 }
