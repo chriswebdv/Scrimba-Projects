@@ -1,9 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  margin-bottom: 20px;
+}
+
 .container {
   display: flex;
   justify-content: space-around;
   background-color: #005778;
   border-radius: 4px;
   padding-bottom: 15px;
+  width: 80%;
+  margin: auto;
 }
 
 .score {
@@ -11,18 +23,22 @@
   font-weight: bold;
   border-radius: 4px;
   text-align: center;
+  margin-top: 10px;
 }
 
 h3 {
   background-color: #008e97;
   padding: 8px;
   border-radius: 4px;
+  margin-top: 10px;
+  text-align: center;
 }
 
 .buttons {
   display: flex;
   justify-content: center;
   gap: 5px;
+  margin-top: 10px;
 }
 
 button {
@@ -33,4 +49,9 @@ button {
   color: antiquewhite;
   font-weight: bold;
   background-color: black;
+}
+
+.home,
+.guest {
+  width: 40%;
 }
