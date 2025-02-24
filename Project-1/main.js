@@ -1,13 +1,16 @@
+let totalPoints = 0;
 let scoreBtn = document.querySelector('.score-btn');
 let scoreBoard = document.querySelector('.score-board');
-scoreBoard.textContent = 0;
 
 function addTwoPoints() {
-  return (scoreBoard.textContent += 2);
+  totalPoints += 2;
+  return (scoreBoard.textContent = totalPoints);
 }
 function addThreePoints() {
-  return (scoreBoard.textContent += 3);
+  totalPoints += 3;
+  return (scoreBoard.textContent = totalPoints);
 }
 function addSevenPoints() {
-  return (scoreBoard.textContent += 7);
+  totalPoints += 7;
+  return (scoreBoard.textContent = totalPoints);
 }
