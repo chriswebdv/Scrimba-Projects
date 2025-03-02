@@ -1,16 +1,32 @@
-let totalPoints = 0;
-let scoreBtn = document.querySelector('.score-btn');
-let scoreBoard = document.querySelector('.score-board');
+let totalPointsHome = 0;
+let totalPointsGuest = 0;
+let scoreBtnHome = document.querySelector('.score-btn-home');
+let scoreBtnGuest = document.querySelector('.score-btn-guest');
+let scoreBoardHome = document.querySelector('.score-board-home');
+let scoreBoardGuest = document.querySelector('.score-board-guest');
 
-function addTwoPoints() {
-  totalPoints += 2;
-  return (scoreBoard.textContent = totalPoints);
+function addTwoPointsHome() {
+  totalPointsHome += 2;
+  return (scoreBoardHome.textContent = totalPointsHome);
 }
-function addThreePoints() {
-  totalPoints += 3;
-  return (scoreBoard.textContent = totalPoints);
+function addThreePointsHome() {
+  totalPointsHome += 3;
+  return (scoreBoardHome.textContent = totalPointsHome);
 }
-function addSevenPoints() {
-  totalPoints += 7;
-  return (scoreBoard.textContent = totalPoints);
+function addSevenPointsHome() {
+  totalPointsHome += 7;
+  return (scoreBoardHome.textContent = totalPointsHome);
+}
+
+function addTwoPointsGuest() {
+  totalPointsGuest += 2;
+  return (scoreBoardGuest.textContent = totalPointsGuest);
+}
+function addThreePointsGuest() {
+  totalPointsGuest += 3;
+  return (scoreBoardGuest.textContent = totalPointsGuest);
+}
+function addSevenPointsGuest() {
+  totalPointsGuest += 7;
+  return (scoreBoardGuest.textContent = totalPointsGuest);
 }
